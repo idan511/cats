@@ -25,8 +25,8 @@ body {
 }
 
 @keyframes rot {
-  100% {
-    transform: rotateZ('360deg');
+  to {
+    transform: rotateZ(360deg);
   }
 }
 
