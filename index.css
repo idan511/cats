@@ -24,8 +24,15 @@ body {
   filter: brightness(60%);
 }
 
+@keyframes rot {
+  100% {
+    transform: rotateZ('360deg');
+  }
+}
+
 #cat img:hover {
   cursor: wait;
   transition: 0.3s;
   filter: brightness(100%);
+  animation: rot 2s linear 0s infinite;
 }
