@@ -9,9 +9,10 @@
 <body onscroll="document.getElementById('arrow').style.opacity = '0';" id="body">
   <div class="page">
     <div class="background">
-      <img src="media/spinner.svg" id="spinner">
-      <video src="media/c3.mp4" autoplay muted type="video/mp4" onplay="document.getElementById('spinner').style.display = 'none'"></video>
-      
+      <!-- <img src="media/spinner.svg" id="spinner"> -->
+      <video autoplay muted preload="auto" id="video">
+        <source src="media/c3.mp4" type="video/mp4" >
+      </video>
     </div>
     <div class="content">
       <h1 class="visibility_contrast">Tonto the Cat</h1>
