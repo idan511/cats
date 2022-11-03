@@ -21,3 +21,10 @@ document.getElementById("c_but").addEventListener("click", function contactClick
 
   collapse = !collapse
 });
+
+// document.getElementById("video").addEventListener("play", function contactClickhandler(el) {
+//   console.log("llo")
+//   document.getElementById("video").style.display = "auto";
+//   document.getElementById("spinner").style.display = "none";
+// });
+
