@@ -6,35 +6,46 @@
   <link rel="stylesheet" href="index.css" />
 </head>
 
-<body>
-  <div id="container">
-    <div id="main">
-      <div class="intro">
-        <h1>Hi! Welcome to my profile</h1>
-        <p>
-          I'm a software engineer who likes to play guitar and take long walks.
-        </p>
-      </div>
-      <div id="work">
-        <h2>Work</h2>
-        <p>
-          I work at a software company.
-        </p>
-      </div>
-      <div id="play">
-        <h2>Play</h2>
-        <p>
-          I play guitar and like to go walking.
-        </p>
-      </div>
-      <div id="cat">
-        <img src="cat.png" alt="Black metal cat" />
-      </div>
-      <div id="contact">
-        <button>Contact me</button>
-      </div>
+<body onscroll="document.getElementById('arrow').style.opacity = '0';" id="body">
+  <div class="page">
+    <div class="background">
+      <video src="media/c3.mp4" autoplay muted type="video/mp4"></video>
+    </div>
+    <div class="content">
+      <h1 class="visibility_contrast">Tonto the Cat</h1>
     </div>
   </div>
+  <div class="page">
+    <div class="content">
+      <div class="button_bar">
+        <div class="button" id="dm_but">Dark Mode</div>
+        <div class="button" id="c_but">Toggle Show / Hide</div>
+      </div>
+      
+      <div class="card">
+      <h2>About me</h2>
+      <p>
+        Hi! My name is Tonto (Spanish for silly), I am a 3 years old orange tabby and I like <strong>treats</strong> and <emstrong>bellyrubs</strong>! I welcome you to my very <em>amazing</em> website!
+        <br>
+        <a href="https://en.wikipedia.org/wiki/Cat">Read more here!</a>
+      </p>
+    </div>
+    <div class="card">
+      <h2>Things I like to do</h2>
+      <ul>
+        <li>Sleeping</li>
+        <li>Crying for food</li>
+        <li>Playing in my tree</li>
+        <li>Looking at birds</li>
+      </ul>
+    </div>
+    <h2 class="visibility_contrast">This is an image:</h2>
+      <img src="media/c1.jpeg" class="card">
+      <h2 class="visibility_contrast">This is an iframe:</h2>
+      <iframe class="card" style="aspect-ratio: 16 / 9;" src="https://www.youtube-nocookie.com/embed/KMvqIO7IE7c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+  </div>
+  <img src="media/arrow-down.svg" id="arrow" alt="Scroll down!">
   <script src="index.js"></script>
 </body>
 
